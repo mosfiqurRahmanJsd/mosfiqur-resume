@@ -197,20 +197,21 @@ iframe {
     height: 56px;
     margin-bottom: 24px;
 }
+
 .box {
     padding: 40px;
     border-radius: 16px;
     width: 364px;
 }
 
-.box h3 {
+.target-heading {
     color: rgb(13, 19, 33);
     font-weight: 800;
     font-size: 24px;
     margin-bottom: 8px;
 }
 
-.box p {
+.target-des {
     color: rgba(13, 19, 33, 0.700);
     font-size: 16px;
     font-weight: 400;
@@ -218,7 +219,7 @@ iframe {
     line-height: 26px;
 }
 
-.box a {
+.target-btn {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -228,11 +229,48 @@ iframe {
 .box-1 {
     background-color: rgba(255, 76, 30, 0.05);
 }
+
 .box-2 {
 
-background-color: rgba(0, 76, 232, 0.05);
+    background-color: rgba(0, 76, 232, 0.05);
 }
+
 .box-3 {
 
-background-color: rgba(255, 223, 0, 0.05);
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+
+/* next target style */
+.next-target {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.next-target-box {
+    margin: 48px 0;
+}
+
+
+
+.next-box {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+/* support style */
+.support {
+    width: 1140px;
+    border-radius: 16px;
+    background-image:  url('./../assets/handshake.jpg');
+    height: 313px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
