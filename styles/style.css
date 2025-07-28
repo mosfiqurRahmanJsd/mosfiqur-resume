@@ -101,8 +101,12 @@ body {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     width: 1140px;
-    padding: 80px 97px;
     margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.dev {
+    padding: 80px 97px;
 }
 
 .learn-development {
@@ -143,6 +147,31 @@ body {
 }
 
 
-.right-space {
-    padding-right: 180px;
+/* inspiration style */
+#inspiration {
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 151px;
+    text-align: center;
+}
+
+.yt-video {
+    border-radius: 16px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+}
+
+
+iframe {
+    border-radius: 16px;
+} 
+
+.fixed-width {
+    width: 852px;
+    margin: 0 auto;
 }
