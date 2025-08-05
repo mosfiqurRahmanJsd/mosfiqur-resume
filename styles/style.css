@@ -55,7 +55,7 @@ body {
 }
 
 .hero-content {
-     width: 998px;
+    width: 998px;
 }
 
 .title {
@@ -399,7 +399,7 @@ body {
         width: 100%;
     }
 
- 
+
 
     .target-box {
         flex-direction: column;
@@ -444,14 +444,19 @@ body {
     .support {
         padding: 30px 0;
     }
+
     .box {
         padding: 0;
+    }
+
+    .dev {
+        padding: 10px;
     }
 }
 
 
 @media screen and (max-width:992px) {
-        .yt-video {
+    .yt-video {
         width: 100%;
     }
 
